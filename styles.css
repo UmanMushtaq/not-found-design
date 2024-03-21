@@ -11,8 +11,12 @@ body {
   min-width: 320px;
   color: red;
 }
-
+.logo:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
 .error-content p {
+  display: inline-block;
   margin-bottom: 28px;
   color: red;
 }
@@ -28,8 +32,12 @@ body {
 }
 
 .contactUs {
-  /* text-decoration: none; */
-  font-weight: 600;
+  display: inline;
+  text-decoration: none;
+  /* font-weight: 600; */
+}
+.inline-container {
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
